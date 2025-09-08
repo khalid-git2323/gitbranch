@@ -14,12 +14,14 @@
 
         h1, h2 {
             color: white;
+            colour ="red"
             text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
         }
 
         form {
             display: flex;
             gap: 10px;
+            colour="blue"
             margin-bottom: 20px;
         }
 
