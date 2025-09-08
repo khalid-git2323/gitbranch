@@ -9,6 +9,9 @@
             padding: 40px;
             background: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c') no-repeat center center fixed;
             background-size: cover;
+            colour ="red"
+            colour ="green"
+            colour ="blue-dark"
         }
 
         h1, h2 {
