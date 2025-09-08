@@ -22,6 +22,7 @@
             display: flex;
             gap: 10px;
             colour="blue"
+            red="fghfgjsgfgsdgffdf"
             margin-bottom: 20px;
         }
 
