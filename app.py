@@ -9,6 +9,9 @@
             padding: 40px;
             background: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c') no-repeat center center fixed;
             background-size: cover;
+            colour ="red"
+            colour ="green"
+            colour ="blue-dark"
         }
 
         h1, h2 {
@@ -85,20 +88,7 @@
                 });
         }
 
-        document.getElementById("userForm").addEventListener("submit", e => {
-            e.preventDefault();
-            const name = document.getElementById("name").value;
-            const email = document.getElementById("email").value;
-
-            fetch(API_URL, {
-                method: "POST",
-                headers: { "Content-Type": "application/json" },
-                body: JSON.stringify({ name, email })
-            })
-            .then(res => res.json())
-            .then(() => {
-                fetchUsers();
-                document.getElementById("userForm").reset();
+        skjfjkfhbfhfjfbhbfrgfbhfbrkjberkjbfjkbejkbbvdhbfdrgffbhjbffjhbfb tihsbfb jb thisis khald jamadar this is devops cloud devops enginneerr eei he 
             });
         });
 
