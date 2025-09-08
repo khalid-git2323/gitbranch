@@ -85,20 +85,7 @@
                 });
         }
 
-        document.getElementById("userForm").addEventListener("submit", e => {
-            e.preventDefault();
-            const name = document.getElementById("name").value;
-            const email = document.getElementById("email").value;
-
-            fetch(API_URL, {
-                method: "POST",
-                headers: { "Content-Type": "application/json" },
-                body: JSON.stringify({ name, email })
-            })
-            .then(res => res.json())
-            .then(() => {
-                fetchUsers();
-                document.getElementById("userForm").reset();
+        skjfjkfhbfhfjfbhbfrgfbhfbrkjberkjbfjkbejkbbvdhbfdrgffbhjbffjhbfb tihsbfb jb thisis khald jamadar this is devops cloud devops enginneerr eei he 
             });
         });
 
